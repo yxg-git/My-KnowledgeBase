@@ -97,7 +97,7 @@
 8. 修改密码，按照MySQL8.0默认的密码组件，此时的密码要求是必须包含数字，大小写字母，特殊字符，且长度不低于8位，否则会提示密码不符合规则。
 
    ```shell
-   ALTER user 'root'@'localhost' IDENTIFIED BY 'Root.123456';
+   ALTER user 'root'@'localhost' IDENTIFIED BY '@WSyxg19980720';
    ```
 
 9. 开放远程登录权限
