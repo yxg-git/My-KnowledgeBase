@@ -65,9 +65,9 @@
 5. 启动与修改密码
 
    ```shell
-    systemctl start mysqld # 启动
+   systemctl start mysqld # 启动
     
-    systemctl status mysqld # 查看状态
+   systemctl status mysqld # 查看状态
    ```
 
    ![image-20220303141134373](https://yxgspace.oss-cn-beijing.aliyuncs.com/img/image-20220303141134373.png)
@@ -80,10 +80,10 @@
     cat /var/log/mysqld.log | grep password
    ```
 
-   显示以下内容：
+   显示以下内容，其中`qD4;B+H?BvLo`为初始密码：
 
    ```shell
-   2020-09-02T05:30:06.739311Z 5 [Note] [MY-010454] [Server] A temporary password is generated for root@localhost: tC0;+kB?BqCg
+   2020-09-02T05:30:06.739311Z 5 [Note] [MY-010454] [Server] A temporary password is generated for root@localhost: qD4;B+H?BvLo
    ```
 
 7. 使用root角色登录
@@ -97,7 +97,7 @@
 8. 修改密码，按照MySQL8.0默认的密码组件，此时的密码要求是必须包含数字，大小写字母，特殊字符，且长度不低于8位，否则会提示密码不符合规则。
 
    ```shell
-   ALTER user 'root'@'localhost' IDENTIFIED BY '@WSyxg19980720';
+   ALTER user 'root'@'localhost' IDENTIFIED BY '你的密码';
    ```
 
 9. 开放远程登录权限
@@ -126,4 +126,4 @@
 
 11. 远程连接
 
-    如果在阿里云或者腾讯云中安装mysql，使用navicat或者sqlyong连接不上，到阿里云或腾讯云控制台开放2206端口
+    如果在阿里云或者腾讯云中安装mysql，使用navicat或者sqlyong连接不上，到阿里云或腾讯云控制台开放3306端口
