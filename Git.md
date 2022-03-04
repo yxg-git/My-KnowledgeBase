@@ -27,9 +27,15 @@
 4. 初始化git仓库
 
    ```shell
-   git status
+   git init
    ```
 
+5. 查看文件状态
+
+   ```shell
+   git status 
+   ```
+   
 5. 添加
 
    ```SHELL
