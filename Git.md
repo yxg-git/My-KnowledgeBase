@@ -81,6 +81,12 @@
     git checkout 分支名
     ```
 
+13. 查看远程分支
+
+    ```shell
+    git branch -a 
+    ```
+
 13. 合并分支
 
     ```shell
@@ -116,6 +122,7 @@
 
     ```shell
     git pull 远程仓库名 分支名
+    git checkout -b 本地分支名 origin/远程分支名
     ```
     
 18. 查看远程地址
