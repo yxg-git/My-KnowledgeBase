@@ -236,9 +236,23 @@
    echo $tmp
    ```
 
+2. 搜索文件
+
+   ```shell
+   # whereis
+    
+   
+   # which 
+   
+   # find
+   
+   # locate
+   ```
+
    
 
 ## 四、文件打包与解压缩
+
 
 ## 五、文件系统操作与磁盘管理
 
