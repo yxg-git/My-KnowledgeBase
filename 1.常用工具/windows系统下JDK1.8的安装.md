@@ -10,7 +10,7 @@
 
 2. 网盘链接下载
 
-- 官网下载没有特殊方法的话下载可能比较慢慢，我这里准备了[网盘链接](https://pan.baidu.com/s/1ViOKvX8rkLOmnMmVaVJJYg） 提取码：giqs 
+- 官网下载没有特殊方法的话下载可能比较慢，我这里准备了[网盘链接](https://pan.baidu.com/s/1ViOKvX8rkLOmnMmVaVJJYg） 提取码：giqs 
 
 
 ## 二、安装

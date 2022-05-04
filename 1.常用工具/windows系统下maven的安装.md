@@ -18,7 +18,7 @@
 
 ## 二、配置JDK环境变量
 
-- 这边文章有详细的安装步骤：https://blog.csdn.net/qq_45282568/article/details/122093495?spm=1001.2014.3001.5501
+- 这篇文章有详细的安装步骤：https://blog.csdn.net/qq_45282568/article/details/122093495?spm=1001.2014.3001.5501
 
 ## 三、配置maven环境变量
 
@@ -58,6 +58,6 @@
 
 ## 六、将maven集成到idea中
 
-- 在<kbd>文件</kbd> --> <kbd>设置</kbd>中搜索**maven**，做如下设置
+- 在<kbd>文件</kbd> --> <kbd>设置</kbd>中搜索**maven**，做如下设置：
 
 ![image-20211222222233453](https://gitee.com/yxg-git/typora-image/raw/master/img/image-20211222222233453.png)
