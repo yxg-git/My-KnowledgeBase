@@ -1,5 +1,7 @@
 # Linux
 
+> [Linux命令大全](https://www.linuxcool.com/)
+
 ## 一、用户及文件权限管理
 
 1. 查看用户

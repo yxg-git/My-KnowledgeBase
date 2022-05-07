@@ -1,0 +1,7 @@
+
+docker pull zendesk/maxwell //下载MaxWell镜像
+docker run --name maxwell --restart=always  -d  zendesk/maxwell bin/maxwell  --user='root' --password='@WSyxg19980720'  --host='101.43.125.251'  --producer=rabbitmq --rabbitmq_user='guest' --rabbitmq_pass='guest' --rabbitmq_host='123.56.220.247' --rabbitmq_port='5672' --rabbitmq_exchange='maxwell'  --rabbitmq_exchange_type='fanout' --rabbitmq_exchange_durable='true' --filter='exclude: *.*, include: blog.t_article.article_title = *, include: blog.t_article.article_content = *, include: blog.t_article.is_delete = *'
+
+
+docker pull zendesk/maxwell //下载MaxWell镜像
+docker run --name maxwell --restart=always  -d  zendesk/maxwell bin/maxwell  --user='数据库用户名' --password='数据库密码'  --host='IP地址'  --producer=rabbitmq --rabbitmq_user='MQ用户名' --rabbitmq_pass='MQ密码' --rabbitmq_host='IP地址' --rabbitmq_port='5672' --rabbitmq_exchange='maxwell_exchange'  --rabbitmq_exchange_type='fanout' --rabbitmq_exchange_durable='true' --filter='exclude: *.*, include: blog.tb_article.article_title = *, include: blog.tb_article.article_content = *, include: blog.tb_article.is_delete = *, include: blog.tb_article.status = *' //运行MaxWell
